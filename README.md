@@ -58,7 +58,7 @@
 
 **Why it matters:** Managing local user accounts on a hypervisor is a fundamental IAM task in enterprise environments. Shell access control is critical — granting it incorrectly gives users direct ESXi command-line access, which is a significant security risk.
 
-![User Account Creation on ESXi](Lab08/1.jpg)
+![User Account Creation on ESXi](lab08/1.jpg)
 
 ---
 
@@ -83,7 +83,7 @@
 
 **Why it matters:** In VMware ESXi, permissions are applied at the object level (host, cluster, VM). Assigning roles per VM is a key **least privilege** practice — users should only have access to the VMs they need, not the entire host.
 
-![VM Permissions Assignment](Lab08/2.jpg)
+![VM Permissions Assignment](lab08/3.jpg)
 
 ---
 
@@ -116,7 +116,7 @@ User name:          Administrator
 
 **Why it matters:** Assigning different roles to the same user on different VMs is a core RBAC principle. `spokhrel157855` is an Administrator on VM-02 but only has Power State access on VM-01 — demonstrating real-world access segmentation.
 
-![RBAC and Power State Role](Lab08/3.jpg)
+![RBAC and Power State Role](lab08/4.jpg)
 
 ---
 
@@ -158,7 +158,7 @@ The time and date of this login have been sent to the system logs.
 
 **Why it matters:** SSH access to the ESXi shell is a powerful and sensitive capability. Failed login attempts being logged to system logs is a critical **audit trail** feature. The failed user creation task also highlights the importance of error handling in IAM operations.
 
-![SSH Access via PuTTY to ESXi](Lab08/4.jpg)
+![SSH Access via PuTTY to ESXi](lab08/5.jpg)
 
 ---
 
