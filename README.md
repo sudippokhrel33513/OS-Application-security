@@ -1,4 +1,4 @@
-[Lab08-README.md](https://github.com/user-attachments/files/28325469/Lab08-README.md)
+[lab08-README.md](https://github.com/user-attachments/files/28325469/lab08-README.md)
 # 🖥️ VMware ESXi — Identity & Access Management Lab (Lab 08)
 
 > **Fanshawe College — Information Security Management (INFO6003)**
@@ -58,7 +58,7 @@
 
 **Why it matters:** Managing local user accounts on a hypervisor is a fundamental IAM task in enterprise environments. Shell access control is critical — granting it incorrectly gives users direct ESXi command-line access, which is a significant security risk.
 
-![User Account Creation on ESXi](OS & Application Security/lab08/1.jpg)
+![User Account Creation on ESXi](lab08/1.jpg)
 
 ---
 
