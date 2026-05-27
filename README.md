@@ -1,4 +1,4 @@
-[Lab08-README (1).md](https://github.com/user-attachments/files/28325795/Lab08-README.1.md)
+[Lab08-README (3).md](https://github.com/user-attachments/files/28325973/Lab08-README.3.md)
 # 🖥️ VMware ESXi — Identity & Access Management Lab (Lab 08)
 
 > **Fanshawe College — Information Security Management (INFO6003)**
@@ -185,7 +185,7 @@ The LAN segment configuration failed because **propagation was removed from `ISM
 
 **Why it matters:** Understanding LAN segment propagation is critical for network architects. A misconfigured propagation setting can silently break network isolation — a serious security gap in a production VMware environment.
 
-![LAN Segments Theory and Failure Analysis](lab08/5.jpg)
+
 
 ---
 
